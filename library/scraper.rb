@@ -13,3 +13,6 @@ class Scraper
       book_title = self.get_page.css('a.bookTitle')
       binding.pry
     end
+
+  end
+end
